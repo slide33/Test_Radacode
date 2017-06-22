@@ -1,0 +1,289 @@
+@import "fonts";
+$main-font: 'Sf_ui__textregular';
+$main-font2: 'AvenirNextLTPro';
+
+.wrapper {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1260px;
+}
+
+.menu__items {
+  width: 40px;
+  height: 17px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 51px;
+  border-top: 5px solid rgb(51, 51, 51);
+  border-bottom: 5px solid rgb(51, 51, 51);
+  cursor: pointer;
+  position: fixed;
+  left: 74px;
+}
+
+.items--center-line {
+  display: inline-block;
+  width: 32px;
+  margin-left: 4px;
+  background: rgb(51, 51, 51);
+  height: 5px;
+}
+
+.phone {
+  width: 535px;
+  margin: 0 0 0 95px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.left-side {
+  position: fixed;
+  align-self: flex-start;
+}
+
+.rigth-side {
+  margin-left: 9px;
+  position: fixed;
+  align-self: flex-end;
+}
+
+.elements {
+  width: 87.851%;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.elements__dialog-window {
+  margin: 23px 0 0 2.14%;
+  width: 310px;
+}
+
+.elements__man-odessa {
+  margin: -36px 0 0 16.24%;
+  width: 196px;
+}
+
+.elements__text-about-swim {
+  margin: 18px 8.335% 0 0;
+  align-self: flex-end;
+  width: 151px;
+  z-index: 998;
+}
+
+.oneline-img {
+  display: flex;
+}
+
+.oneline-img__seguls {
+  width: 191px;
+  margin: -42px 0 0 7.695%;
+  z-index: 998;
+}
+
+.oneline-img__dialog-second {
+  width: 255px;
+  height: 72px;
+  margin: -6px 0 0 -6.197%;
+}
+
+.seaside-boulevard {
+  width: 233px;
+  margin: -34px 0 0 5.77%;
+}
+
+.entry-field {
+  top: 668px;
+  position: fixed;
+}
+
+.element-next {
+  display: flex;
+  flex-direction: column;
+  margin: 85px 0 80px;
+}
+
+.element-next__dialog-window {
+  width: 310px;
+  margin: 22px 0 0 2.14%;
+}
+
+.element-next__snail {
+  width: 214px;
+  margin: -25px 0 0 52.78%;
+}
+
+.element-next__cake {
+  width: 198px;
+  margin: 39px 0 0 50.215%;
+}
+
+.element-next__candies {
+  width: 208px;
+  margin: -116px 0 0 5.129%;
+}
+
+.element-next__perepichka {
+  width: 187px;
+  margin: -48px 0 0 24.36%;
+}
+
+.left-elements {
+  margin: 0 95px 0 0;
+  // height: 618px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.left-elements__main-logo-odessa {
+  position: fixed;
+  align-self: flex-end;
+  margin: 22px 0 0 77px;
+  z-index: 999;
+}
+
+.left-elements__logo-odessa {
+  width: 501px;
+  margin: 101px 0 0 5.3%;
+}
+
+.left-elements__logo-odessa-text {
+  width: 393px;
+  margin: -108px 0 0;
+  border-left: 0.4px solid rgba(0,0,0,.15);
+}
+
+.left-elements__icon-odessa {
+  width: 125px;
+  position: absolute;
+  top: 359px;
+  right: 31px;
+}
+
+.left-elements-stickers-odessa {
+  width: 397px;
+  color: rgb(51, 51, 51);
+  font-family: $main-font;
+  font-size: 18px;
+  font-weight: 700;
+  background: #fff;
+  text-indent: 119px;
+  letter-spacing: 0.5px;
+  border-left: 0.4px solid rgba(0, 0, 0, 0.15);
+}
+
+.left-elements-lorem {
+  width: 270px;
+  font-size: 15px;
+  color: rgb(51, 51, 51);
+  font-family: $main-font;
+  font-weight: 300;
+  line-height: 25px;
+  letter-spacing: -.2px;
+  padding: 19px 60px 0 67px;
+  border-left: 0.4px solid rgba(0,0,0,.15);
+  border-right: 0.4px solid rgba(0,0,0,.15);
+}
+
+.stores {
+  width: 397px;
+  display: flex;
+  justify-content: space-around;
+  background: #fff;
+  border-left: 0.4px solid rgba(0,0,0,.15);
+  border-right: 0.4px solid rgba(0,0,0,.15);
+  border-bottom: 0.4px solid rgba(0,0,0,.15);
+  padding-bottom: 30px;
+}
+
+.stores__element {
+  display: flex;
+  width: 117px;
+  height: 44px;
+  border: 1px solid rgb(51, 51, 51);
+  cursor: pointer;
+}
+
+.aplle-store {
+  margin: 19px 0 0;
+}
+
+.telegram {
+  margin: 19px 0 0 -82px;
+}
+
+.aplle-store__icon,
+.telegram__icon {
+  width: 21px;
+  padding: 7px 5px;
+  height: 26px;
+}
+
+.aplle-store__text,
+.telegram__text {
+  width: 80px;
+  padding: 7px 0 0 4px;
+  letter-spacing: 1.2px;
+  color: rgb(51, 51, 51);
+  font-weight: 300;
+  line-height: 13px;
+  font-family: $main-font2;
+  font-size: 9px;
+}
+
+.text--span {
+  font-size: 16px;
+  padding: 0 0 0 3px;
+}
+
+.left-elements-kiev {
+  width: 501px;
+  margin: 110px 0 0 -16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.left-elements-kiev__main-img {
+  width: 601px;
+}
+
+.left-elements-kiev__icon {
+  margin: -53px 0 0 101px;
+  width: 114px;
+  align-self: center;
+  width: 135px;
+}
+
+.left-elements-kiev-stickers {
+  color: #333;
+  font-family: Sf_ui__textregular;
+  font-size: 18px;
+  font-weight: 700;
+  background: #fff;
+  text-indent: 113px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  padding-top: 2px;
+}
+
+.left-elements-kiev-lorem {
+  width: 270px;
+  font-size: 15px;
+  color: #333;
+  font-family: Sf_ui__textregular;
+  font-weight: 300;
+  line-height: 25px;
+  letter-spacing: -.2px;
+  padding: 22px 60px 0 179px;
+  align-self: center;
+  line-height: 2;
+}
+
+.border-off {
+  border: 0px;
+  align-self: flex-end;
+}
