@@ -87,16 +87,28 @@
           flex-direction: column; }
 
 /* line 60, ../scss/style.scss */
+.first-screen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: 660px;
+      flex-basis: 660px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+/* line 66, ../scss/style.scss */
 .elements__dialog-window {
-  margin: 23px 0 0 2.14%;
+  margin: 23px 0 0 3.14%;
   width: 310px; }
 
-/* line 65, ../scss/style.scss */
+/* line 71, ../scss/style.scss */
 .elements__man-odessa {
   margin: -36px 0 0 16.24%;
   width: 196px; }
 
-/* line 70, ../scss/style.scss */
+/* line 76, ../scss/style.scss */
 .elements__text-about-swim {
   margin: 18px 8.335% 0 0;
   -ms-flex-item-align: end;
@@ -104,35 +116,35 @@
   width: 151px;
   z-index: 998; }
 
-/* line 77, ../scss/style.scss */
+/* line 83, ../scss/style.scss */
 .oneline-img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
 
-/* line 81, ../scss/style.scss */
+/* line 87, ../scss/style.scss */
 .oneline-img__seguls {
   width: 191px;
   margin: -42px 0 0 7.695%;
   z-index: 998; }
 
-/* line 87, ../scss/style.scss */
+/* line 93, ../scss/style.scss */
 .oneline-img__dialog-second {
   width: 255px;
   height: 72px;
   margin: -6px 0 0 -6.197%; }
 
-/* line 93, ../scss/style.scss */
+/* line 99, ../scss/style.scss */
 .seaside-boulevard {
   width: 233px;
   margin: -34px 0 0 5.77%; }
 
-/* line 98, ../scss/style.scss */
+/* line 104, ../scss/style.scss */
 .entry-field {
   top: 668px;
   position: fixed; }
 
-/* line 103, ../scss/style.scss */
+/* line 109, ../scss/style.scss */
 .element-next {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -141,36 +153,50 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 85px 0 80px; }
+  margin: 56px 0 0; }
 
-/* line 109, ../scss/style.scss */
+/* line 115, ../scss/style.scss */
 .element-next__dialog-window {
   width: 310px;
   margin: 22px 0 0 2.14%; }
 
-/* line 114, ../scss/style.scss */
+/* line 120, ../scss/style.scss */
 .element-next__snail {
   width: 214px;
   margin: -25px 0 0 52.78%; }
 
-/* line 119, ../scss/style.scss */
+/* line 125, ../scss/style.scss */
 .element-next__cake {
   width: 198px;
   margin: 39px 0 0 50.215%; }
 
-/* line 124, ../scss/style.scss */
+/* line 130, ../scss/style.scss */
 .element-next__candies {
   width: 208px;
   margin: -116px 0 0 5.129%; }
 
-/* line 129, ../scss/style.scss */
+/* line 135, ../scss/style.scss */
 .element-next__perepichka {
   width: 187px;
   margin: -48px 0 0 24.36%; }
 
-/* line 134, ../scss/style.scss */
+/* line 140, ../scss/style.scss */
 .left-elements {
-  margin: 0 95px 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: 600px;
+      flex-basis: 600px;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative; }
+
+/* line 148, ../scss/style.scss */
+.left-elements-odessa {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -180,33 +206,33 @@
           flex-direction: column;
   position: relative; }
 
-/* line 142, ../scss/style.scss */
+/* line 154, ../scss/style.scss */
 .left-elements__main-logo-odessa {
   position: fixed;
   -ms-flex-item-align: end;
       align-self: flex-end;
-  margin: 22px 0 0 77px;
+  margin: 22px 0 0 -17px;
   z-index: 999; }
 
-/* line 149, ../scss/style.scss */
+/* line 161, ../scss/style.scss */
 .left-elements__logo-odessa {
   width: 501px;
   margin: 101px 0 0 5.3%; }
 
-/* line 154, ../scss/style.scss */
+/* line 166, ../scss/style.scss */
 .left-elements__logo-odessa-text {
   width: 393px;
   margin: -108px 0 0;
   border-left: 0.4px solid rgba(0, 0, 0, 0.15); }
 
-/* line 160, ../scss/style.scss */
+/* line 172, ../scss/style.scss */
 .left-elements__icon-odessa {
   width: 125px;
   position: absolute;
   top: 359px;
-  right: 31px; }
+  right: 125px; }
 
-/* line 167, ../scss/style.scss */
+/* line 179, ../scss/style.scss */
 .left-elements-stickers-odessa {
   width: 397px;
   color: #333333;
@@ -218,7 +244,7 @@
   letter-spacing: 0.5px;
   border-left: 0.4px solid rgba(0, 0, 0, 0.15); }
 
-/* line 179, ../scss/style.scss */
+/* line 191, ../scss/style.scss */
 .left-elements-lorem {
   width: 270px;
   font-size: 15px;
@@ -231,7 +257,7 @@
   border-left: 0.4px solid rgba(0, 0, 0, 0.15);
   border-right: 0.4px solid rgba(0, 0, 0, 0.15); }
 
-/* line 192, ../scss/style.scss */
+/* line 204, ../scss/style.scss */
 .stores {
   width: 397px;
   display: -webkit-box;
@@ -245,7 +271,7 @@
   border-bottom: 0.4px solid rgba(0, 0, 0, 0.15);
   padding-bottom: 30px; }
 
-/* line 203, ../scss/style.scss */
+/* line 215, ../scss/style.scss */
 .stores__element {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -255,42 +281,44 @@
   border: 1px solid #333333;
   cursor: pointer; }
 
-/* line 211, ../scss/style.scss */
+/* line 223, ../scss/style.scss */
 .aplle-store {
   margin: 19px 0 0; }
 
-/* line 215, ../scss/style.scss */
+/* line 227, ../scss/style.scss */
 .telegram {
   margin: 19px 0 0 -82px; }
 
-/* line 219, ../scss/style.scss */
+/* line 231, ../scss/style.scss */
 .aplle-store__icon,
 .telegram__icon {
   width: 21px;
   padding: 7px 5px;
   height: 26px; }
 
-/* line 226, ../scss/style.scss */
+/* line 238, ../scss/style.scss */
 .aplle-store__text,
 .telegram__text {
   width: 80px;
-  padding: 7px 0 0 4px;
+  margin: 0 0 0 -31px;
+  padding: 7px 2px 0 36px;
   letter-spacing: 1.2px;
-  color: #333333;
+  color: #333;
   font-weight: 300;
   line-height: 13px;
   font-family: "AvenirNextLTPro";
-  font-size: 9px; }
+  font-size: 9px;
+  text-decoration: none; }
 
-/* line 238, ../scss/style.scss */
+/* line 252, ../scss/style.scss */
 .text--span {
   font-size: 16px;
   padding: 0 0 0 3px; }
 
-/* line 243, ../scss/style.scss */
+/* line 257, ../scss/style.scss */
 .left-elements-kiev {
-  width: 501px;
-  margin: 110px 0 0 -16px;
+  width: 100%;
+  margin: 110px 0 0 -10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -299,47 +327,48 @@
       -ms-flex-direction: column;
           flex-direction: column; }
 
-/* line 250, ../scss/style.scss */
+/* line 264, ../scss/style.scss */
 .left-elements-kiev__main-img {
   width: 601px; }
 
-/* line 254, ../scss/style.scss */
+/* line 268, ../scss/style.scss */
 .left-elements-kiev__icon {
-  margin: -53px 0 0 101px;
+  margin: -53px 0 0;
   width: 114px;
   -ms-flex-item-align: center;
       align-self: center;
   width: 135px; }
 
-/* line 261, ../scss/style.scss */
+/* line 275, ../scss/style.scss */
 .left-elements-kiev-stickers {
   color: #333;
-  font-family: Sf_ui__textregular;
+  font-family: "Sf_ui__textregular";
   font-size: 18px;
   font-weight: 700;
   background: #fff;
-  text-indent: 113px;
+  text-indent: 15px;
   text-align: center;
   letter-spacing: 0.5px;
-  padding-top: 2px; }
+  padding-top: 4px; }
 
-/* line 273, ../scss/style.scss */
+/* line 287, ../scss/style.scss */
 .left-elements-kiev-lorem {
   width: 270px;
   font-size: 15px;
   color: #333;
-  font-family: Sf_ui__textregular;
+  font-family: "Sf_ui__textregular";
   font-weight: 300;
   line-height: 25px;
-  letter-spacing: -.2px;
-  padding: 22px 60px 0 179px;
+  letter-spacing: 0.3px;
+  padding: 20px 60px 0 83px;
   -ms-flex-item-align: center;
       align-self: center;
-  line-height: 2; }
+  line-height: 1.9; }
 
-/* line 286, ../scss/style.scss */
+/* line 300, ../scss/style.scss */
 .border-off {
-  border: 0px;
-  -ms-flex-item-align: end;
-      align-self: flex-end; }
+  border: 0;
+  -ms-flex-item-align: center;
+      align-self: center; }
+
 /*# sourceMappingURL=style.css.map */
